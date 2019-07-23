@@ -9,11 +9,13 @@
                 @foreach($posts as $post)
 
                     <article class="post-item">
+                        @if( $post -> image_url)
                         <div class="post-item-image">
                             <a href="post.html">
-                                <img src="/img/{{ $post->image }}'" alt="">
+                                <img src="/img/{{$post->image_url}}" alt="">
                             </a>
                         </div>
+                        @endif
                         <div class="post-item-body">
                             <div class="padding-10">
                                 <h2><a href="post.html">{{ $post->title }}</a></h2>
