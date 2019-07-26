@@ -5,6 +5,7 @@ namespace App\Providers;
 
 use App\Post;
 use function foo\func;
+use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -25,11 +26,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(Router $router)
+    public function boot( )
     {
-        parent::boot($router);
+        parent::boot();
 
-        $router->bind('post', function($slug){
+        $this->bind('post', function($slug){
             return Post::published()->where('slug', $slug)->first();
 
         });
