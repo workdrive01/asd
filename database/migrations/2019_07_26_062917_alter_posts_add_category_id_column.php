@@ -14,8 +14,8 @@ class AlterPostsAddCategoryIdColumn extends Migration
     public function up()
     {
         Schema::table('posts', function (Blueprint $table) {
-            $table->unsignedBigInteger('id')->unsigned();
-            $table->foreign('id')->references('id')->on('categories')->onDelete('restrict');
+            $table->unsignedBigInteger('category_id')->unsigned();
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('restrict');
 
         });
     }
@@ -28,6 +28,7 @@ class AlterPostsAddCategoryIdColumn extends Migration
     public function down()
     {
         Schema::table('posts', function (Blueprint $table) {
+            $table->dropForeign(['category_id']);
             $table->dropColumn('category_id');
         });
     }

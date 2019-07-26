@@ -8,6 +8,7 @@ use GrahamCampbell\Markdown\Facades\Markdown;
 
 class Post extends Model
 {
+
     protected $dates = ['published_at'];
 
     public function getImageUrlAttribute($value){
