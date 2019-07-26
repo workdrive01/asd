@@ -46,4 +46,8 @@ class Post extends Model
     public function getExcerptHtmlAttribute($value){
         return $this->excerpt ? Markdown::convertToHtml(e($this -> body)) : NULL;
     }
+
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
 }
