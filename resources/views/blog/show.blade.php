@@ -22,7 +22,7 @@
                                     <li><i class="fa fa-clock-o"></i>
                                         <time> {{ $post -> date }}</time>
                                     </li>
-                                    <li><i class="fa fa-tags"></i><a href="#"> Blog</a></li>
+                                    <li><i class="fa fa-folder"></i><a href="{{ route('category', $post->category->slug) }}"> {{ $post->category->title  }}</a></li>
                                     <li><i class="fa fa-comments"></i><a href="#">4 Comments</a></li>
                                 </ul>
                             </div>
@@ -34,21 +34,20 @@
                 <article class="post-author padding-10">
                     <div class="media">
                         <div class="media-left">
-                            <a href="#">
-                                <img src="/img/author.jpg" alt="Author" class="media-object">
+                            <?php $author = $post->author; ?>
+                            <a href="{{ route('author', $post->author->slug) }}">
+                                <img src="{{ $author->gravatar() }}" width="100" height="100" alt="{{ $author->name }}" class="media-object">
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading"><a href="{{ route('author', $post->author->slug) }}">{{ $post->author->name }}</a></h4>
+                            <h4 class="media-heading"><a href="{{ route('author', $author->slug) }}">{{ $author->name }}</a></h4>
                             <div class="post-author-count">
-                                <a href="{{ route('author', $post->author->slug) }}"><i class="fa fa-clone"></i>
-                                    <?php $postCount = $post->author->posts->count()?>
+                                <a href="{{ route('author', $author->slug) }}"><i class="fa fa-clone"></i>
+                                    <?php $postCount = $author->posts()->published()->count()?>
                                     {{ $postCount }} {{ str_plural('post', $postCount) }}
                                 </a>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas, blanditiis
-                                impedit repellat harum, eaque saepe aspernatur quo magnam obcaecati dolor! Deleniti quod
-                                repellendus non iste architecto, voluptate excepturi velit.</p>
+                            {!! $author->bio_html !!}
                         </div>
                     </div>
                 </article>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests;
 use App\Category;
 use App\Post;
 use App\User;
@@ -24,14 +25,26 @@ class BlogController extends Controller
     public function category(Category $category){
 
         $categoryName = $category->title;
-        $posts = $category
-            ->posts()
-            ->with('author')
-            ->latestFirst()
-            ->published()
-            ->simplePaginate($this -> limit);
+        $posts = $category->posts()
+                          ->with('author')
+                          ->latestFirst()
+                          ->published()
+                          ->simplePaginate($this -> limit);
 
         return view("blog.index", compact('posts', 'categoryName'));
+    }
+
+    public function author(User $author){
+
+        $authorName = $author->name;
+
+        $posts = $author->posts()
+                        ->with('category')
+                        ->latestFirst()
+                        ->published()
+                        ->simplePaginate($this -> limit);
+
+        return view("blog.index", compact('posts', 'authorName'));
     }
 
     public function show(Post $post ){
@@ -39,15 +52,5 @@ class BlogController extends Controller
         return view("blog.show", compact('post'));
     }
 
-    public function author(User $author){
-        $authorName = $author->name;
-        $posts = $author
-            ->posts()
-            ->with('category')
-            ->latestFirst()
-            ->published()
-            ->simplePaginate($this -> limit);
 
-        return view("blog.index", compact('posts', 'authorName'));
-    }
 }
