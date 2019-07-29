@@ -19,7 +19,8 @@
                 <ul class="categories">
                     @foreach($categories as $category)
                         <li>
-                            <a href="{{ route('category', $category->slug) }}"><i class="fa fa-angle-right"></i> {{ $category->title }}</a>
+                            <a href="{{ route('category', $category->slug) }}"><i
+                                    class="fa fa-angle-right"></i> {{ $category->title }}</a>
                             <span class="badge pull-right">{{ $category->posts->count() }}</span>
                         </li>
                     @endforeach
@@ -34,20 +35,22 @@
             <div class="widget-body">
                 <ul class="popular-posts">
                     @foreach($popularPosts as $post)
-                    <li>
-                        <div class="post-image">
-                        <a href="{{ route('blog.show', $post->slug) }}">
-                            <img src="{{ $post->image_url }}">
-                        </a>
-                        </div>
-                        <div class="post-body">
-                            <h6><a href="{{ route('blog.show', $post->slug) }}">{{ $post->title }}</a></h6>
-                            <div class="post-meta">
-                                <span>{{ $post->date }}</span>
+                        <li>
+                            @if($post->image_url)
+                                <div class="post-image">
+                                    <a href="{{ route('blog.show', $post->slug) }}">
+                                        <img src="{{ $post->image_url }}">
+                                    </a>
+                                </div>
+                            @endif
+                            <div class="post-body">
+                                <h6><a href="{{ route('blog.show', $post->slug) }}">{{ $post->title }}</a></h6>
+                                <div class="post-meta">
+                                    <span>{{ $post->date }}</span>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                        @endforeach
+                        </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
