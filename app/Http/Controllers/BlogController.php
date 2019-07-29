@@ -7,6 +7,7 @@ use App\Category;
 use App\Post;
 use App\User;
 use Illuminate\Http\Request;
+use function Sodium\increment;
 
 class BlogController extends Controller
 {
@@ -49,6 +50,11 @@ class BlogController extends Controller
 
     public function show(Post $post ){
 
+        //update posts set view_count = view_count + 1 where id = ?
+      // $viewCount = $post->view_count + 1;
+       // $post->update(['view_count'=>$viewCount]);
+
+        $post -> increment('view_count');
         return view("blog.show", compact('post'));
     }
 

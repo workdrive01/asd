@@ -8,6 +8,7 @@ use GrahamCampbell\Markdown\Facades\Markdown;
 
 class Post extends Model
 {
+   // protected $fillable = ['view_count'];
 
     protected $dates = ['published_at'];
 
@@ -18,6 +19,20 @@ class Post extends Model
         if( ! is_null($this->image)){
             $imagePath = public_path() . "/img/" . $this->image;
             if(file_exists($imagePath)) $imageUrl = asset("/img/" . $this->image);
+        }
+
+        return $imageUrl;
+    }
+
+    public function getThumbUrlAttribute($value){
+
+        $imageUrl = "";
+
+        if( ! is_null($this->image)){
+            $ext = substr(strrchr($this->image,'.'),1);
+            $thumbnail = str_replace(".{$ext}", "_thumb.{$ext}", $this->image);
+            $imagePath = public_path() . "/img/" . $thumbnail;
+            if(file_exists($imagePath)) $imageUrl = asset("/img/" . $thumbnail);
         }
 
         return $imageUrl;
