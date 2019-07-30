@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\Views\Composer\NavigationComposer;
+use App\Views\Composers\NavigationComposer;
 use Illuminate\Support\ServiceProvider;
 
 class ComposerServiceProvider extends ServiceProvider

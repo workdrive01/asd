@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-
 use App\Post;
 use function foo\func;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;

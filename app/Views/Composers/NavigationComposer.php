@@ -1,15 +1,12 @@
 <?php
-
-namespace App\Views\Composer;
-
+namespace App\Views\Composers;
 use Illuminate\View\View;
 use App\Category;
 use App\Post;
 
-
-class navigatorComposer
+class NavigationComposer
 {
-    public function FunctionName(View $view)
+    public function compose(View $view)
     {
         $this->composeCategories($view);
 

@@ -56,6 +56,6 @@ class User extends Authenticatable
     }
 
     public function getBioHtmlAttribute($value){
-        return $this->bio ? Markdown::convertToHtml(e($this -> bio)) : NULL;
+        return $this->bio ? Markdown::convertToHtml(e($this->bio)) : NULL;
     }
 }
