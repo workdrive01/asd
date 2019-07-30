@@ -2,218 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c9cc29-5d5c-4361-ba2f-74440526b134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/simple-mde/simplemde.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/simple-mde/simplemde.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/loginori.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/ComposerServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/ComposerServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/Composers/NavigationComposer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/Composers/NavigationComposer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/loginori.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/loginori.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,37 +32,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/Composers/NavigationComposer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#39#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -280,44 +40,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/ComposerServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/loginori.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="272">
+              <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_061117_alter_users_add_slug_column.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
-                <element signature="e#33#76#0#PHP" expanded="true" />
+                <element signature="e#7#45#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Post.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_063558_alter_users_add_bio_column.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="192">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
-                <element signature="e#23#62#0#PHP" expanded="true" />
+                <element signature="e#7#45#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -325,8 +94,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="39">
               <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -491,59 +272,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="Composers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -601,7 +329,7 @@
       <workItem from="1563871774241" duration="25472000" />
       <workItem from="1564377798519" duration="18166000" />
       <workItem from="1564468024272" duration="97000" />
-      <workItem from="1564468153035" duration="2238000" />
+      <workItem from="1564468153035" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="using faker">
       <created>1563785152027</created>
@@ -743,11 +471,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564398669631</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="using faker&#10;added faker data in post and user&#10;added new page for blog post&#10;made url SEO friendly&#10;added post count of users&#10;added gravater in user profile">
+      <created>1564470460235</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564470460235</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61389000" />
+    <option name="totallyTimeSpent" value="62573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
@@ -830,13 +565,6 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_25_065516_alter_posts_add_published_at_column.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -889,40 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_061117_alter_users_add_slug_column.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
           <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_063558_alter_users_add_bio_column.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1091,17 +782,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/loginori.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state relative-caret-position="238">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/loginori.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_061117_alter_users_add_slug_column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_29_063558_alter_users_add_bio_column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
