@@ -56,7 +56,8 @@
                                         {{ $post->category->title }}
                                     </td>
                                     <td>
-                                        {{ $post->created_at }}
+                                        <abbr title="{{ $post->dateFormatted(true) }}">{{ $post->dateFormatted() }}</abbr>
+                                        {!! $post->publicationLabel()!!}
                                     </td>
                                 </tr>
                                 @endforeach
@@ -65,17 +66,15 @@
                             </div>
                         <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                        <ul class="pagination no-margin">
-                            <li><a href="#">&laquo;</a> </li>
-                            <li><a href="#">1</a> </li>
-                            <li><a href="#">2</a> </li>
-                            <li><a href="#">3</a> </li>
-                            <li><a href="#">&raquo;</a> </li>
-                        </ul>
-                    </div>
-                        <div class="pull-right">
-                            <small>4 times</small>
+                        <div class="pull-left">
+                            {{ $posts->render() }}
                         </div>
+
+                        <div class="pull-right">
+                            <?php $postCount = $posts->count()?>
+                            <small>{{ $postCount }} {{ str_plural("Item", $postCount) }}</small>
+                        </div>
+                    </div>
                     </div>
                     <!-- /.box -->
                 </div>
