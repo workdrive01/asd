@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
 use App\Post;
+use App\Http\Requests;
 
 class BlogController extends BackendController
 {
     protected $limit = 8;
+
     /**
      * Display a listing of the resource.
      *
@@ -34,18 +36,22 @@ class BlogController extends BackendController
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Requests\PostRequest $request)
     {
-        //
+
+        $request->user()->posts()->create($request->all());
+
+        return redirect(route('backend.blog.index')->with('message', 'Your post is successfully created'));
+
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -56,7 +62,7 @@ class BlogController extends BackendController
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -67,8 +73,8 @@ class BlogController extends BackendController
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -79,7 +85,7 @@ class BlogController extends BackendController
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

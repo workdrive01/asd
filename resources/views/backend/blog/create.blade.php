@@ -17,8 +17,7 @@
                         <i class="fa fa-dashboard"></i> Dashboard
                     </a>
                 </li>
-                {{--<li><a href="{{ route('backend.blog.index') }}">Blog</a></li>--}}
-                <li><a href="#">Blog</a></li>
+                <li><a href="{{ route('backend.blog.index') }}">Blog</a></li>
                 <li class="active">All New</li>
             </ol>
         </section>
@@ -31,38 +30,62 @@
                         <!-- /.box-body -->
                         <div class="box-body">
                             {!! Form::model($post, [
-                            'method' => 'POST',
+                            'method' => 'PUT',
                         //    'route' => 'backend.blog.store',
                             ]) !!}
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('title') ? 'has-error' : ''}}">
                                 {!! Form::label('title') !!}
                                 {!! Form::text('title',null, ['class' => 'form-control']) !!}
+
+                                @if($errors->has('title'))
+                                    <span class="help-block">{{ $errors->first('title') }}</span>
+                                    @endif
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('slug') ? 'has-error' : ''}}">
                                 {!! Form::label('slug') !!}
                                 {!! Form::text('slug',null, ['class' => 'form-control']) !!}
+
+                                @if($errors->has('slug'))
+                                    <span class="help-block">{{ $errors->first('slug') }}</span>
+                                    @endif
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('excerpt') ? 'has-error' : ''}}">
                                 {!! Form::label('excerpt') !!}
                                 {!! Form::textarea('excerpt',null, ['class' => 'form-control']) !!}
+
+                                @if($errors->has('excerpt'))
+                                    <span class="help-block">{{ $errors->first('excerpt') }}</span>
+                                    @endif
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('body') ? 'has-error' : ''}}">
                                 {!! Form::label('body') !!}
                                 {!! Form::textarea('body',null, ['class' => 'form-control']) !!}
+
+                                @if($errors->has('body'))
+                                    <span class="help-block">{{ $errors->first('body') }}</span>
+                                    @endif
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('published_at') ? 'has-error' : ''}}">
                                 {!! Form::label('published_at', 'Publication Date') !!}
-                                {!! Form::text('published_at',null, ['class' => 'form-control']) !!}
+                                {!! Form::text('published_at',null, ['class' => 'form-control', 'placeholder' => 'Y:m:d H:i:s']) !!}
+
+                                @if($errors->has('published_at'))
+                                    <span class="help-block">{{ $errors->first('published_at') }}</span>
+                                    @endif
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('category_id') ? 'has-error' : ''}}">
                                 {!! Form::label('category_id', 'Category') !!}
                                 {!! Form::select('category_id', App\Category::pluck('title', 'id'), null, ['class' => 'form-control','placeholder' => 'Choose Category']) !!}
+
+                                @if($errors->has('category_id'))
+                                    <span class="help-block">{{ $errors->first('category_id') }}</span>
+                                    @endif
                             </div>
 
                             {{ Form::Submit('Create new post', ['class'=>'btn btn-primary']) }}

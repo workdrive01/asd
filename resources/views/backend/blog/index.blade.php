@@ -17,8 +17,7 @@
                         <i class="fa fa-dashboard"></i> Dashboard
                     </a>
                 </li>
-                {{--<li><a href="{{ route('backend.blog.index') }}">Blog</a></li>--}}
-                <li><a href="#">Blog</a></li>
+                <li><a href="{{ route('backend.blog.index') }}">Blog</a></li>
                 <li class="active">All Posts</li>
             </ol>
         </section>
@@ -30,12 +29,16 @@
                     <div class="box">
                         <div class="box-header">
                             <div class="pull-left">
-                                {{--<a href="{{ route('backend.blog.create') }}" class="btn btn-success">Add Blog</a>--}}
-                                <a href="#" class="btn btn-success">Add Blog</a>
+                                <a href="{{ route('backend.blog.create') }}" class="btn btn-success">Add Blog</a>
                             </div>
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body ">
+                            @if(session('message'))
+                                <div class="alert alert-info">
+                                    {{ session('message') }}
+                                </div>
+                                @endif
                             @if(!$posts->count())
                                 <div class="alert alert-danger">
                                     No Record Found
@@ -90,8 +93,8 @@
                                 {{ $posts->render() }}
                             </div>
                             <div class="pull-right">
-                                <?php $postCounts = $posts->count()?>
-                                <small>{{ $postCounts }}
+                                <?php $postCountx = $post->count()?>
+                                <small>{{ $postCountx }}
                                     of {{ $postCount }} {{ str_plural("Item", $postCount) }}</small>
                             </div>
                         </div>
